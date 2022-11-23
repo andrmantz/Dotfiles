@@ -1,0 +1,15 @@
+# Some global ignores
+.vscode
+
+# Environments
+.env
+venv
+
+# Py
+.cache
+__pycache__
+
+
+# Js
+node_modules/
+dist/

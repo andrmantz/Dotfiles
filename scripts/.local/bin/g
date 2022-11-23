@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]
+then
+	read -p "> " search
+else 
+	search=$1
+fi
+
+xdg-open "https://www.google.com/search?q=$search" &>/dev/null

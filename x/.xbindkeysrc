@@ -1,0 +1,17 @@
+# thumb wheel controls volume
+"qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'increase_volume'"
+	b:7
+
+"qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_volume'"
+	b:6
+
+# Ctrl+ thumb wheel controls mic
+"qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'decrease_microphone_volume'"
+	control+b:6
+
+"qdbus org.kde.kglobalaccel /component/kmix org.kde.kglobalaccel.Component.invokeShortcut 'increase_microphone_volume'"
+	control+b:7
+
+# Minimize active window
+"xdotool windowminimize $(xdotool getactivewindow)"
+	Control+Shift + m

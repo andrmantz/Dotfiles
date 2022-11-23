@@ -1,0 +1,5 @@
+\.git
+\.gitignore
+
+# Doesn't really work tbh
+^/README.*
