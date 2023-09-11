@@ -12,4 +12,5 @@ zstyle ':completion:*' file-sort alphabetical
 # Case insensitive tab completion
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
-for file in $ZDOTDIR/sources/completion/*; source $file
+
+# for file in $ZDOTDIR/sources/completion/*; source $file
