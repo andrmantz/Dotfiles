@@ -81,3 +81,4 @@ alias gc='git commit -m'
 alias ga='git add'
 alias gr='git remote'
 
+alias sz='source $ZDOTDIR/.zshrc'
